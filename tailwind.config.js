@@ -15,12 +15,8 @@ module.exports = {
       'md': {'max': '767px'},
       // => @media (max-width: 767px) { ... }
 
-      'sm': {'max': '400px'},
+      'sm': {'max': '500px'},
       // => @media (max-width: 639px) { ... }
-     
-      phone500: {max: '500px' },
-      phone700: {min: '501px', max: '700px' },
-      phone1000: {min: '701px', max: '1700px' },
     },
   },
   plugins: [],
