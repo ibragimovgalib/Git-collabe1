@@ -2,7 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    screens: {
+      phone:{max : "500px" },
+      phone2:{max : "700px" },
+    },
   },
   plugins: [],
 };
