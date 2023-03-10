@@ -537,6 +537,14 @@ video {
   margin-bottom: 8rem;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .grid {
   display: grid;
 }
