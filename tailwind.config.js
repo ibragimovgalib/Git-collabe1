@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens:{
+      phone: {max:'700px'},
+    }
     screens: {
       '2xl': {'max': '1535px'},
       // => @media (max-width: 1535px) { ... }
