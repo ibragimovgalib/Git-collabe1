@@ -518,6 +518,10 @@ video {
 
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .mb-\[15px\] {
   margin-bottom: 15px;
 }
@@ -657,6 +661,20 @@ video {
   display: flex;
 }
 
+.w-\[23\%\] {
+  width: 23%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+<<<<<<< HEAD
+.w-\[100\%\] {
+  width: 100%;
+=======
+.flex-col {
+  flex-direction: column;
 .grid {
   display: grid;
 }
@@ -723,12 +741,15 @@ video {
 
 .items-center {
   align-items: center;
+>>>>>>> bfcdcbd2d9c080a7a446c04f9efe60666a3206ae
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
+.gap-6 {
+  gap: 1.5rem;
 .justify-evenly {
   justify-content: space-evenly;
 }
@@ -781,6 +802,60 @@ video {
   background-color: rgb(246 247 253 / var(--tw-bg-opacity));
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
+.pb-\[15px\] {
+  padding-bottom: 15px;
+}
+
+.pt-\[15px\] {
+  padding-top: 15px;
+}
+
+.pt-\[55px\] {
+  padding-top: 55px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+@media (max-width: 500px) {
+  .phone\:m-auto {
+    margin: auto;
+  }
+
+  .phone\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .phone\:w-\[100\] {
+    width: 100;
+  }
+
+  .phone\:flex-col {
+    flex-direction: column;
+  }
+
+  .phone\:text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .phone2\:flex {
+    display: flex;
+  }
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -876,22 +951,43 @@ video {
   padding-top: 7%;
 }
 
-.pb-\[15px\] {
-  padding-bottom: 15px;
-}
 
+  .phone2\:w-\[\] {
+    width: ;
+  }
+  .phone2\:w-\[50\] {
+    width: 50;
+  }
 .pt-\[15px\] {
   padding-top: 15px;
 }
 
-.pt-\[55px\] {
-  padding-top: 55px;
-}
+  .phone2\:w-\[50\%\] {
+    width: 50%;
+  }
 
-.text-center {
-  text-align: center;
-}
+  .phone2\:w-\[45\%\] {
+    width: 45%;
+  }
 
+  .phone2\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .phone2\:w-\[100\%\] {
+    width: 100%;
+  }
+
+<<<<<<< HEAD
+  .phone2\:flex-wrap {
+    flex-wrap: wrap;
+=======
+  .phone2\:border-\[\] {
+    border-color: ;
+  }
+
+  .phone2\:border-\[4\] {
+    border-color: 4;
 .text-\[16px\] {
   font-size: 16px;
 }
@@ -1104,5 +1200,6 @@ video {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+>>>>>>> bfcdcbd2d9c080a7a446c04f9efe60666a3206ae
   }
 }
